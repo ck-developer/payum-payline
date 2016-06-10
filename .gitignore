@@ -1,0 +1,14 @@
+composer.phar
+/vendor/
+/bin/
+
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+### IDE & Editor ###
+.idea/
+.DS_Store
+.svn
+nbproject/
+.nbproject/
+*.sublime-project
