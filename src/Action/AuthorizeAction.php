@@ -19,7 +19,9 @@ class AuthorizeAction extends GatewayAwareAction
 
         $model = ArrayObject::ensureArrayObject($request->getModel());
 
-        throw new \LogicException('Not implemented');
+        $merchant = ArrayObject::ensureArrayObject($model['merchant_id'] ?: []);
+
+        var_dump($merchant);
     }
 
     /**
